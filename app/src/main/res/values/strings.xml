@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">3_Task_Combination_assignment</string>
+
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="title_activity_task2_cafe_location">Task2_CafeLocation</string>
+</resources>

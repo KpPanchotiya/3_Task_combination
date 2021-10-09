@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Task2_Deshboard"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:background="@color/blue_white"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/task2_d_icon1"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:textColor="@color/blue_new"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Navigation View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/task2_d_icon2"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:textColor="@color/blue_new"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Current Location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:src="@drawable/task2_d_icon3"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"/>
+            <TextView
+                android:textColor="@color/blue_new"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Cafe's Locations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
